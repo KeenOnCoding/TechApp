@@ -1,6 +1,6 @@
 export interface IOrder {
   firstName: string;
-  lasttName: string;
+  lastName: string;
   email: string;
   subject: string;
   town: string;

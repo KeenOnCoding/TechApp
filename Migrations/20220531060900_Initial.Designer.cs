@@ -10,7 +10,7 @@ using TechApp;
 namespace TechApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220525061512_Initial")]
+    [Migration("20220531060900_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

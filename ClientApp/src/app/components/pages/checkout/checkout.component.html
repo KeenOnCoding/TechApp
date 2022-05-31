@@ -5,59 +5,46 @@
             <div class="header-title">
                 <h2>Billing Details</h2>
             </div>
-              <form fxLayout="row wrap">
+              <form [formGroup]="newOrderForm" (ngSubmit) ="submitForm(newOrderForm.value)" fxLayout="row wrap">
                   <div  fxFlex="100" fxFlex.gt-md="50" fxFlex.md="50" class="mt-20 pr-5" ngClass.sm="mt-10" ngClass.xs="mt-10">
                     <mat-form-field class="w-100">
-                      <input matInput placeholder="First name (required)" [(ngModel)]="order.firstName" name="firstName" required>
-
+                      <input matInput placeholder="First name (required)" [formControl]="newOrderForm.controls['firstName']">
                     </mat-form-field>
                   </div>
                   <div  fxFlex="100" fxFlex.gt-md="50" fxFlex.md="50" class="pl-5 mt-20" ngClass.sm="mt-10" ngClass.xs="mt-10">
                       <mat-form-field class="w-100">
-                          <input matInput placeholder="Last name (required)" [(ngModel)]="order.lastName" name="lastName" required>
-                          
+                          <input matInput placeholder="Last name (required)"  [formControl]="newOrderForm.controls['lastName']">
                         </mat-form-field>
                   </div>
                   <div  fxFlex="100" fxFlex.gt-sm="100" class="mt-20" ngClass.sm="mt-10" ngClass.xs="mt-10">
-                      <mat-form-field class="w-100">
-                          <input matInput placeholder="Company name (optional)" [(ngModel)]="order.subject"  name="subject">
-                        </mat-form-field>
+                    <mat-form-field class="w-100">
+                      <input matInput placeholder="Subject (required)" [formControl]="newOrderForm.controls['subject']">
+                    </mat-form-field>
                   </div>
-                  <!--<div  fxFlex="100" fxFlex.gt-sm="100" class="mt-20" ngClass.sm="mt-10" ngClass.xs="mt-10">
-                      <mat-form-field class="w-100">
-                          <input matInput placeholder="Address" #address="ngModel" ngModel name="address">
-                          <mat-error *ngIf="address.invalid">Please enter a valid message</mat-error>
-                        </mat-form-field>
-                  </div>-->
                   <div  fxFlex="100" fxFlex.gt-sm="100" class="mt-20" ngClass.sm="mt-10" ngClass.xs="mt-10">
-                      <mat-form-field class="w-100">
-                          <input matInput placeholder="Town/city" [(ngModel)]="order.town"   name="town">
-
-                        </mat-form-field>
+                    <mat-form-field class="w-100">
+                      <input matInput placeholder="Town (required)" [formControl]="newOrderForm.controls['town']">
+                    </mat-form-field>
                   </div>
                   <div  fxFlex="100" fxFlex.gt-md="50" fxFlex.md="50" class="mt-20 pr-5" ngClass.sm="mt-10" ngClass.xs="mt-10">
-                      <mat-form-field class="w-100">
-                          <input matInput placeholder="State / Country (required)" [(ngModel)]="order.state" name="state" required>
-                          <!--<mat-error *ngIf="state.invalid">Please enter a valid message</mat-error>-->
-                        </mat-form-field>
+                    <mat-form-field class="w-100">
+                      <input matInput placeholder="State (required)" [formControl]="newOrderForm.controls['state']">
+                    </mat-form-field>
                   </div>
                   <div  fxFlex="100" fxFlex.gt-md="50" fxFlex.md="50" class="pl-5 mt-20" ngClass.sm="mt-10" ngClass.xs="mt-10">
-                      <mat-form-field class="w-100">
-                          <input matInput placeholder="Postcode / zip (required)" [(ngModel)]="order.postcode"  name="postcode" required>
-                          <!--<mat-error *ngIf="postcode.invalid">Please enter a valid message</mat-error>-->
-                        </mat-form-field>
+                    <mat-form-field class="w-100">
+                      <input matInput placeholder="Postal Code (required)" [formControl]="newOrderForm.controls['postcode']">
+                    </mat-form-field>
                   </div>
                   <div  fxFlex="100" fxFlex.gt-md="50" fxFlex.md="50" class="mt-20 pr-5" ngClass.sm="mt-10" ngClass.xs="mt-10">
-                      <mat-form-field class="w-100">
-                          <input matInput placeholder="Email Address (required)" [(ngModel)]="order.email"  name="email" required>
-                          <!--<mat-error *ngIf="email.invalid">Please enter a valid message</mat-error>-->
-                        </mat-form-field>
+                    <mat-form-field class="w-100">
+                      <input matInput placeholder="FEmail (required)" [formControl]="newOrderForm.controls['email']">
+                    </mat-form-field>
                   </div>
                   <div  fxFlex="100" fxFlex.gt-md="50" fxFlex.md="50" class="pl-5 mt-20" ngClass.sm="mt-10" ngClass.xs="mt-10">
-                      <mat-form-field class="w-100">
-                          <input matInput placeholder="Phone (required)" [(ngModel)]="order.phone" name="phone" required>
-                          <!--<mat-error *ngIf="phone.invalid">Please enter a valid message</mat-error>-->
-                        </mat-form-field>
+                    <mat-form-field class="w-100">
+                      <input matInput placeholder="Phone (required)" [formControl]="newOrderForm.controls['phone']">
+                    </mat-form-field>
                   </div>
                   <div class="add-info">
                     <h3>Additional information</h3>
@@ -66,14 +53,14 @@
                   </div>
                   <div  fxFlex="100" fxFlex.gt-sm="100" class="mt-20" ngClass.sm="mt-10" ngClass.xs="mt-10">
                       <mat-form-field class="w-100">
-                          <textarea placeholder="Post content" matInput rows="4" [(ngModel)]="order.content" name="content"></textarea>
+                          <textarea placeholder="Post content" matInput rows="4" [formControl]="newOrderForm.controls['content']"></textarea>
                         </mat-form-field>
                   </div>
                   <div class="button-wrap" fxFlex="100" fxFlex.gt-sm="100" class="px-1" ngClass.sm="mt-1" ngClass.xs="mt-1">
                       <button class="btn-project"
                               mat-raised-button color="accent"
                               type="submit"
-                              (click) ="submitForm()">Submit Review</button>
+                              >Submit Review</button>
                     </div>
                   </form>
           </div>

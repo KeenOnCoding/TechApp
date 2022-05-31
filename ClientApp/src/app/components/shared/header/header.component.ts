@@ -31,7 +31,7 @@ export class HeaderComponent implements OnInit {
   shoppingCartItems: CartItem[] = [];
 
   myControl = new FormControl();
-  options: string[] = ['One', 'Two', 'Three'];
+  options: string[] = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Sevet', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve'];
   filteredOptions: Observable<string[]>;
 
   constructor(private cartService: CartService) {

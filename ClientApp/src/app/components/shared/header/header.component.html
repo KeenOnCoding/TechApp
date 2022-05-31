@@ -30,19 +30,21 @@
   </form>-->
       <div class="form-group">
         <form class="search-form" fxLayout="row">
-          <div class="search">
+          <!--<div class="search">
             <i class="material-icons">search</i>
-          </div>
+          </div>-->
           <div class="form-wrap">
             <input type="text"
                    placeholder="Search"
                    [formControl]="myControl"
-                   [matAutocomplete]="auto">
+                   [matAutocomplete]="auto"
+                   [(ngModel)]="value">
             <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
               <mat-option *ngFor="let option of filteredOptions | async;let i = index" [value]="option" (click)="someFunc(option)">
                 {{option}}
               </mat-option>
             </mat-autocomplete>
+
           </div>
 
         </form>

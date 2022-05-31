@@ -163,6 +163,82 @@ namespace TechApp
                     new Color(){ Name = "White"},
                 }
             },
+                new Product() {
+                Name = "Wireless Mondo",
+                Price = 266M,
+                SalePrice= 200,
+                Discount = 20,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 3,
+                Brand = "Kenwood",
+                Category = "Headphones",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("e0fbfd9b-f1e5-4f2c-a39c-c36ed6e6ad31"),
+                        Name = "e0fbfd9b-f1e5-4f2c-a39c-c36ed6e6ad31.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("aab170ec-dc7f-4699-9b84-ae938a9626d9"),
+                        Name = "aab170ec-dc7f-4699-9b84-ae938a9626d9.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("e3b6be25-9449-444b-8a62-2c66c3815bce"),
+                        Name = "e3b6be25-9449-444b-8a62-2c66c3815bce.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "nike"},
+                    new Tag(){ Name = "caprese"},
+                    new Tag(){ Name = "lifestyle"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"},
+                    new Color(){ Name = "Red"},
+                    new Color(){ Name = "White"},
+                }
+            },
+                new Product() {
+                Name = "Wireless Mondo",
+                Price = 80M,
+                SalePrice= 70,
+                Discount = 20,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 7,
+                Brand = "Aiwa",
+                Category = "Headphones",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("3f57b14c-ce0a-4505-9fee-418f4ef43b5c"),
+                        Name = "3f57b14c-ce0a-4505-9fee-418f4ef43b5c.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("3470cf3b-a3c1-440a-8f77-017b097f69c4"),
+                        Name = "3470cf3b-a3c1-440a-8f77-017b097f69c4.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("70fdd499-5771-4839-ab7c-fb012399cb15"),
+                        Name = "70fdd499-5771-4839-ab7c-fb012399cb15.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "nike"},
+                    new Tag(){ Name = "caprese"},
+                    new Tag(){ Name = "lifestyle"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"},
+                    new Color(){ Name = "Red"},
+                    new Color(){ Name = "White"},
+                }
+            },
             };
         }
     }
