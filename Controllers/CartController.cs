@@ -40,7 +40,7 @@ namespace TechApp
         [Route("checkout")]
         [HttpPost]
         [ProducesResponseType((int)HttpStatusCode.Accepted)]
-        public IActionResult CheckoutAsync([FromBody] CartCheckout basketCheckout)
+        public async Task<IActionResult> CheckoutAsync([FromBody] CartCheckout basketCheckout)
         {
             _catalogContext.Orders.Add(new Order
             {
@@ -55,7 +55,7 @@ namespace TechApp
                 Content = basketCheckout.Content,
             });
 
-            _catalogContext.SaveChanges();
+            await _catalogContext.SaveChangesAsync();
 
             return Accepted();
         }

@@ -1,11 +1,11 @@
 <div class="container">
   <div class="checkout sec-padding">
-      <div fxLayout="row wrap" class="">
+      <form [formGroup]="newOrderForm" (ngSubmit) ="submitForm(newOrderForm.value)" fxLayout="row wrap" class="">
           <div class="billing-details  pr-15" fxFlex="100" fxFlex.gt-md="50" fxFlex.md="50">
             <div class="header-title">
                 <h2>Billing Details</h2>
             </div>
-              <form [formGroup]="newOrderForm" (ngSubmit) ="submitForm(newOrderForm.value)" fxLayout="row wrap">
+              <form  fxLayout="row wrap">
                   <div  fxFlex="100" fxFlex.gt-md="50" fxFlex.md="50" class="mt-20 pr-5" ngClass.sm="mt-10" ngClass.xs="mt-10">
                     <mat-form-field class="w-100">
                       <input matInput placeholder="First name (required)" [formControl]="newOrderForm.controls['firstName']">
@@ -56,12 +56,12 @@
                           <textarea placeholder="Post content" matInput rows="4" [formControl]="newOrderForm.controls['content']"></textarea>
                         </mat-form-field>
                   </div>
-                  <div class="button-wrap" fxFlex="100" fxFlex.gt-sm="100" class="px-1" ngClass.sm="mt-1" ngClass.xs="mt-1">
+                  <!--<div class="button-wrap" fxFlex="100" fxFlex.gt-sm="100" class="px-1" ngClass.sm="mt-1" ngClass.xs="mt-1">
                       <button class="btn-project"
                               mat-raised-button color="accent"
                               type="submit"
                               >Submit Review</button>
-                    </div>
+                    </div>-->
                   </form>
           </div>
           <div class="mainOrder-wrapper pl-15" fxFlex="100" fxFlex.gt-md="50" fxFlex.md="50">
@@ -106,12 +106,16 @@
               </mat-radio-group>
             </div>
             <div class="order">
-              <button class="btn-project" mat-raised-button color="accent" type="submit">PLACE ORDER</button>
+              <button class="btn-project"
+                      mat-raised-button color="accent"
+                      type="submit">
+              PLACE ORDER
+              </button>
             </div>
                </div>
           </div>
           </div>
 
-       </div>
+       </form>
     </div>
 </div>

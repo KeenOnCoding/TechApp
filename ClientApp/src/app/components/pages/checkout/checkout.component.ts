@@ -1,10 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
 import { CartService } from '../../shared/services/cart.service';
 import { Observable, of } from 'rxjs';
 import { CartItem } from 'src/app/modals/cart-item';
 import { ProductService } from '../../shared/services/product.service';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { IOrder } from '../../../modals/order.model';
+import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-checkout',
@@ -20,8 +22,10 @@ export class CheckoutComponent implements OnInit {
   payments: string[] = ['Create an Account?', 'Flat Rate'];
   paymantWay: string[] = ['Direct Bank Transfer', 'PayPal'];
   order: IOrder = <IOrder>{};
+  baseUrl: string;
+  constructor(private httpClient: HttpClient, @Inject('BASE_URL') baseUrl: string, private router: Router,private cartService: CartService, public productService: ProductService, fb: FormBuilder) {
+    this.baseUrl = baseUrl;
 
-  constructor( private cartService: CartService, public productService: ProductService, fb: FormBuilder) {
     this.newOrderForm = fb.group({
       'firstName': [this.order.firstName, Validators.required],
       'lastName': [this.order.lastName, Validators.required],
@@ -51,6 +55,10 @@ export class CheckoutComponent implements OnInit {
     this.order.phone = this.newOrderForm.controls['phone'].value;
     this.order.content = this.newOrderForm.controls['content'].value;
     console.log(this.order.firstName)
+
+    this.httpClient.post(this.baseUrl + 'api/Cart/checkout', this.order)
+      .subscribe(error => console.error(error));
+    this.router.navigate(['home/one']);
   }
   public getTotal(): Observable<number> {
     return this.cartService.getTotalAmount();
