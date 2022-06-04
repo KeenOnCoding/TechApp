@@ -5,12 +5,7 @@ using Polly;
 using Polly.Retry;
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Globalization;
-using System.IO;
-using System.IO.Compression;
 using System.Linq;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace TechApp
@@ -239,6 +234,44 @@ namespace TechApp
                     new Color(){ Name = "White"},
                 }
             },
+                new Product() {
+                Name = "Dono Purple Wireless",
+                Price = 100,
+                SalePrice= 200,
+                Discount = 50,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 12,
+                Brand = "Philips",
+                Category = "Headphones",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("d68ab434-4cfb-48cd-962f-6c3fea91b32f"),
+                        Name = "d68ab434-4cfb-48cd-962f-6c3fea91b32f.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("b70e6be5-bfbb-417b-a254-60351c809e52"),
+                        Name = "b70e6be5-bfbb-417b-a254-60351c809e52.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("69876b2e-3aef-42a8-b276-2c23898b116e"),
+                        Name = "69876b2e-3aef-42a8-b276-2c23898b116e.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "nike"},
+                    new Tag(){ Name = "caprese"},
+                    new Tag(){ Name = "lifestyle"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"},
+                    new Color(){ Name = "Red"},
+                    new Color(){ Name = "White"},
+                }
+            }
             };
         }
     }
