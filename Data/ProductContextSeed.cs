@@ -271,6 +271,108 @@ namespace TechApp
                     new Color(){ Name = "Red"},
                     new Color(){ Name = "White"},
                 }
+            },
+                new Product() {
+                Name = "Tablet  8500U 2TB",
+                Price = 1000,
+                SalePrice= 900,
+                Discount = 50,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 9,
+                Brand = "DELL",
+                Category = "Laptops",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("7a4ca061-0259-4b46-beec-18e1d845df31"),
+                        Name = "7a4ca061-0259-4b46-beec-18e1d845df31.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("f4394555-5863-4f0d-b0c6-d3effe212176"),
+                        Name = "f4394555-5863-4f0d-b0c6-d3effe212176.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("a69b32bc-104e-42f6-8a59-ac93f5cb7a62"),
+                        Name = "a69b32bc-104e-42f6-8a59-ac93f5cb7a62.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "lifestyle"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Grey"}
+                }
+            },
+                new Product() {
+                Name = "Pro Book 15",
+                Price = 2000,
+                SalePrice= 1900,
+                Discount = 150,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 4,
+                Brand = "Microsoft",
+                Category = "Laptops",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("ad316b7b-bd90-439c-8114-26d7fc822cfa"),
+                        Name = "ad316b7b-bd90-439c-8114-26d7fc822cfa.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("d02fe142-00e1-4a33-8a4e-4a699fb0dd9d"),
+                        Name = "d02fe142-00e1-4a33-8a4e-4a699fb0dd9d.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("9664cf06-4107-40b0-b333-5f786ac0654c"),
+                        Name = "9664cf06-4107-40b0-b333-5f786ac0654c.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "Modern"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Grey"}
+                }
+            },
+                new Product() {
+                Name = "Tablet VX3000 Extra Light",
+                Price = 3000,
+                SalePrice= 2900,
+                Discount = 160,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 10,
+                Brand = "Samsung",
+                Category = "Laptops",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("f78efd78-e429-4872-b502-564698dccde7"),
+                        Name = "f78efd78-e429-4872-b502-564698dccde7.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("bf7f1ec7-05ef-407d-ba11-e95801af4860"),
+                        Name = "bf7f1ec7-05ef-407d-ba11-e95801af4860.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("d916e56a-bdba-4010-959a-182c2e460452"),
+                        Name = "d916e56a-bdba-4010-959a-182c2e460452.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "Modern"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"}
+                }
             }
             };
         }
