@@ -373,6 +373,40 @@ namespace TechApp
                 Colors = new Color[]{
                     new Color(){ Name = "Black"}
                 }
+            },
+                new Product() {
+                Name = "Tablet VX4000 8500 3TB",
+                Price = 2000,
+                SalePrice= 1800,
+                Discount = 200,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 10,
+                Brand = "Nokia",
+                Category = "Laptops",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("99c4a5bc-ee40-4bc4-a83a-05084a6b4198"),
+                        Name = "99c4a5bc-ee40-4bc4-a83a-05084a6b4198.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("c840b829-ea29-47a0-9fe7-137b93d31905"),
+                        Name = "c840b829-ea29-47a0-9fe7-137b93d31905.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("c90fb106-1514-4457-b126-2d8b5097e33d"),
+                        Name = "c90fb106-1514-4457-b126-2d8b5097e33d.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "Modern"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"}
+                }
             }
             };
         }
