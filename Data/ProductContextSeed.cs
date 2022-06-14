@@ -407,6 +407,40 @@ namespace TechApp
                 Colors = new Color[]{
                     new Color(){ Name = "Black"}
                 }
+            },
+                new Product() {
+                Name = "Laptop Sens 7200L",
+                Price = 700,
+                SalePrice= 650,
+                Discount = 100,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 10,
+                Brand = "Dell",
+                Category = "Laptops",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("420e3398-6e5e-45a8-8f18-15910025f313"),
+                        Name = "420e3398-6e5e-45a8-8f18-15910025f313.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("d0acda9c-5fb3-448b-b910-a495b59fb24a"),
+                        Name = "d0acda9c-5fb3-448b-b910-a495b59fb24a.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("c57d9938-e7cf-4ad9-801a-1750c1793a25"),
+                        Name = "c57d9938-e7cf-4ad9-801a-1750c1793a25.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "Modern"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"}
+                }
             }
             };
         }
