@@ -441,6 +441,40 @@ namespace TechApp
                 Colors = new Color[]{
                     new Color(){ Name = "Black"}
                 }
+            },
+                new Product() {
+                Name = "Laptop XS3000 WiFi Smart",
+                Price = 900,
+                SalePrice= 850,
+                Discount = 50,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 20,
+                Brand = "Asus",
+                Category = "Laptops",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("908fc02e-9aac-49ed-9cde-894a26ef4c7a"),
+                        Name = "908fc02e-9aac-49ed-9cde-894a26ef4c7a.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("f7087710-cd44-4e2c-bb15-0d2aff21c7c5"),
+                        Name = "f7087710-cd44-4e2c-bb15-0d2aff21c7c5.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("d6139407-1be4-4fa0-aa3a-1a0e7bb6d7b0"),
+                        Name = "d6139407-1be4-4fa0-aa3a-1a0e7bb6d7b0.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "Modern"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"}
+                }
             }
             };
         }
