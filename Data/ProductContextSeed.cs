@@ -509,6 +509,40 @@ namespace TechApp
                 Colors = new Color[]{
                     new Color(){ Name = "Black"}
                 }
+            },
+                new Product() {
+                Name = "Extra Thin Elitte",
+                Price = 400,
+                SalePrice= 390,
+                Discount = 50,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 20,
+                Brand = "Samsung",
+                Category = "Smartphones",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("3edaf113-0345-4e02-85fd-761a74f4073f"),
+                        Name = "3edaf113-0345-4e02-85fd-761a74f4073f.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("6666f613-28d9-4aac-b4cc-1800e9979e0a"),
+                        Name = "6666f613-28d9-4aac-b4cc-1800e9979e0a.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("d1f6305f-0414-4e64-a831-d090db1f5109"),
+                        Name = "d1f6305f-0414-4e64-a831-d090db1f5109.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "Modern"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"}
+                }
             }
             };
         }
