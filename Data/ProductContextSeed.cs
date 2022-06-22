@@ -543,6 +543,40 @@ namespace TechApp
                 Colors = new Color[]{
                     new Color(){ Name = "Black"}
                 }
+            },
+                new Product() {
+                Name = "Notebook Polo 4000",
+                Price = 500,
+                SalePrice= 490,
+                Discount = 70,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 10,
+                Brand = "Asus",
+                Category = "Smartphones",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("76f031ce-b64e-43fc-a2e6-d3337cd05e8d"),
+                        Name = "76f031ce-b64e-43fc-a2e6-d3337cd05e8d.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("3e87cdf2-6a4b-4522-9130-65d2eb7056a1"),
+                        Name = "3e87cdf2-6a4b-4522-9130-65d2eb7056a1.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("22095343-3ef2-4010-bf14-b5ca7f866c48"),
+                        Name = "22095343-3ef2-4010-bf14-b5ca7f866c48.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "Modern"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"}
+                }
             }
             };
         }
