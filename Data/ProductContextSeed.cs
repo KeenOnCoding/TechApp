@@ -577,6 +577,40 @@ namespace TechApp
                 Colors = new Color[]{
                     new Color(){ Name = "Black"}
                 }
+            },
+                new Product() {
+                Name = "Smartphone Elitte Pro",
+                Price = 699,
+                SalePrice= 590,
+                Discount = 20,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 10,
+                Brand = "Brand-1",
+                Category = "Smartphones",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("1c1da291-6f7d-40e2-bc7b-902e4c9dc3a0"),
+                        Name = "1c1da291-6f7d-40e2-bc7b-902e4c9dc3a0.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("e741d0f3-4aa3-49d1-96f1-449c6e158f5d"),
+                        Name = "e741d0f3-4aa3-49d1-96f1-449c6e158f5d.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("b1541681-9d9f-4f5f-b4ac-8466b9588b79"),
+                        Name = "b1541681-9d9f-4f5f-b4ac-8466b9588b79.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "Modern"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"}
+                }
             }
             };
         }
