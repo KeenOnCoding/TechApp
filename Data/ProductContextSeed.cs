@@ -611,6 +611,40 @@ namespace TechApp
                 Colors = new Color[]{
                     new Color(){ Name = "Black"}
                 }
+            },
+                new Product() {
+                Name = "Smartphone XD5000",
+                Price = 799,
+                SalePrice= 645,
+                Discount = 20,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 10,
+                Brand = "Brand-1",
+                Category = "Smartphones",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("540ddd37-96a1-4d92-9706-f6da26454466"),
+                        Name = "540ddd37-96a1-4d92-9706-f6da26454466.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("bfeca57e-b5d4-4e51-b1c0-5168e83ef9bc"),
+                        Name = "bfeca57e-b5d4-4e51-b1c0-5168e83ef9bc.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("2b108ef3-454c-43a4-86b7-353dc90ded5e"),
+                        Name = "2b108ef3-454c-43a4-86b7-353dc90ded5e.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "Modern"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"}
+                }
             }
             };
         }
