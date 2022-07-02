@@ -645,7 +645,41 @@ namespace TechApp
                 Colors = new Color[]{
                     new Color(){ Name = "Black"}
                 }
-            }
+            },
+                new Product() {
+                Name = "Camera Xd Pro with Waterproof cover",
+                Price = 799,
+                SalePrice= 645,
+                Discount = 20,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 10,
+                Brand = "Brand-2",
+                Category = "Cameras",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("f7a6a350-9882-4064-8473-d3472b352563"),
+                        Name = "f7a6a350-9882-4064-8473-d3472b352563.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("4e231230-dde8-48ae-9a43-e0c88c21d0ba"),
+                        Name = "4e231230-dde8-48ae-9a43-e0c88c21d0ba.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("f1a06aad-8dc9-4c0e-bf15-5515083cf98d"),
+                        Name = "f1a06aad-8dc9-4c0e-bf15-5515083cf98d.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "Modern"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"}
+                }
+            },
             };
         }
     }
