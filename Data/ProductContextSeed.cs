@@ -680,6 +680,40 @@ namespace TechApp
                     new Color(){ Name = "Black"}
                 }
             },
+                new Product() {
+                Name = "Camera HD200 x100",
+                Price = 599,
+                SalePrice= 445,
+                Discount = 20,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 10,
+                Brand = "Brand-1",
+                Category = "Cameras",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("5e1b05a9-33c3-40a7-ba4d-fc0442283330"),
+                        Name = "5e1b05a9-33c3-40a7-ba4d-fc0442283330.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("84e29e5d-ff57-436a-9d93-d4f48f9a0b00"),
+                        Name = "84e29e5d-ff57-436a-9d93-d4f48f9a0b00.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("56a705a0-2ef1-4c4d-8694-f36aeba036b4"),
+                        Name = "56a705a0-2ef1-4c4d-8694-f36aeba036b4.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "Modern"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"}
+                }
+            },
             };
         }
     }
