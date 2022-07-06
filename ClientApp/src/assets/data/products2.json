@@ -1,41 +1,4 @@
 {
-
-  {
-    "id": 20,
-    "name": "Smart Camera Extra mini2000",
-    "price": 799,
-    "salePrice": 750,
-    "discount": 50,
-    "pictures": [
-      {
-        "small": "assets/images/product/small/photocamera3/Photocamera1.png",
-        "big": "assets/images/product/small/photocamera3/Photocamera1.png"
-      },
-      {
-        "small": "assets/images/product/small/photocamera3/Photocamera2.png",
-        "big": "assets/images/product/small/photocamera3/Photocamera2.png"
-      },
-      {
-        "small": "assets/images/product/small/photocamera3/Photocamera3.png",
-        "big": "assets/images/product/small/photocamera3/Photocamera3.png"
-      },
-      {
-        "small": "assets/images/product/small/photocamera3/Photocamera4.png",
-        "big": "assets/images/product/small/photocamera3/Photocamera4.png"
-      },
-      {
-        "small": "assets/images/product/small/photocamera3/Photocamera5.png",
-        "big": "assets/images/product/small/photocamera3/Photocamera5.png"
-      }
-    ],
-    "shortDetails": "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    "stock": 5,
-    "brand": "Brand-1",
-    "newPro": true,
-    "sale": true,
-    "category": "Cameras"
-  },
   {
     "id": 21,
     "name": "ONTEC Camera W5000",

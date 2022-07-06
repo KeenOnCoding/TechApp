@@ -714,6 +714,40 @@ namespace TechApp
                     new Color(){ Name = "Black"}
                 }
             },
+                new Product() {
+                Name = "Smart Camera Extra mini2000",
+                Price = 999,
+                SalePrice= 845,
+                Discount = 20,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 10,
+                Brand = "Brand-1",
+                Category = "Cameras",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("622e9a90-1fb4-4de5-8da9-c8ea16f0c6ce"),
+                        Name = "622e9a90-1fb4-4de5-8da9-c8ea16f0c6ce.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("2ccabffc-9aca-4141-a5b4-c0e35c7e2f35"),
+                        Name = "2ccabffc-9aca-4141-a5b4-c0e35c7e2f35.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("cd8a07e1-0471-454c-8cfc-f088f7f22650"),
+                        Name = "cd8a07e1-0471-454c-8cfc-f088f7f22650.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "Modern"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"}
+                }
+            },
             };
         }
     }
