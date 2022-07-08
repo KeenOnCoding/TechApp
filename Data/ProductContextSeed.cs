@@ -748,6 +748,40 @@ namespace TechApp
                     new Color(){ Name = "Black"}
                 }
             },
+                new Product() {
+                Name = "ONTEC Camera W5000",
+                Price = 400,
+                SalePrice= 389,
+                Discount = 20,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 10,
+                Brand = "Brand-1",
+                Category = "Cameras",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("c90d02a5-51ff-4608-a5b5-74e6407ba055"),
+                        Name = "c90d02a5-51ff-4608-a5b5-74e6407ba055.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("fb7f5e0d-a000-4fc5-b01b-3f420ba4d30b"),
+                        Name = "fb7f5e0d-a000-4fc5-b01b-3f420ba4d30b.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("f59c0b29-1244-4939-a67f-b8b365acbef5"),
+                        Name = "f59c0b29-1244-4939-a67f-b8b365acbef5.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "Modern"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"}
+                }
+            },
             };
         }
     }
