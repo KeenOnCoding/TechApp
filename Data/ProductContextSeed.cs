@@ -782,6 +782,40 @@ namespace TechApp
                     new Color(){ Name = "Black"}
                 }
             },
+                new Product() {
+                Name = "Classic Camera E5000",
+                Price = 500,
+                SalePrice= 489,
+                Discount = 20,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 10,
+                Brand = "Brand-1",
+                Category = "Cameras",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("3b56fa49-0f5c-49f2-b8a8-ff243839628a"),
+                        Name = "3b56fa49-0f5c-49f2-b8a8-ff243839628a.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("d343f308-143a-48df-8eb6-f278d536e0cb"),
+                        Name = "d343f308-143a-48df-8eb6-f278d536e0cb.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("8c54025c-9c23-4938-887b-f27594f6f75f"),
+                        Name = "8c54025c-9c23-4938-887b-f27594f6f75f.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "Modern"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"}
+                }
+            }
             };
         }
     }
