@@ -815,6 +815,40 @@ namespace TechApp
                 Colors = new Color[]{
                     new Color(){ Name = "Black"}
                 }
+            },
+                new Product() {
+                Name = "TV Premium 2000",
+                Price = 799,
+                SalePrice= 600,
+                Discount = 20,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 10,
+                Brand = "Brand-5",
+                Category = "Tv & Audio",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("851f8bee-9696-42d7-a144-2a49790f47d4"),
+                        Name = "851f8bee-9696-42d7-a144-2a49790f47d4.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("493ffa8e-e38b-4e71-a2a5-35958ca019a4"),
+                        Name = "493ffa8e-e38b-4e71-a2a5-35958ca019a4.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("862b64ac-b518-44f7-94fb-a248e6b56e92"),
+                        Name = "862b64ac-b518-44f7-94fb-a248e6b56e92.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "Modern"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"}
+                }
             }
             };
         }
