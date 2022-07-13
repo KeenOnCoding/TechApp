@@ -883,7 +883,41 @@ namespace TechApp
                 Colors = new Color[]{
                     new Color(){ Name = "Black"}
                 }
-            }
+            },
+                 new Product() {
+                Name = "Smart TV Extra Premium",
+                Price = 2799,
+                SalePrice= 3600,
+                Discount = 120,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 10,
+                Brand = "Brand-5",
+                Category = "Tv & Audio",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("e367b54e-8edc-4430-a260-d468cdbfca51"),
+                        Name = "e367b54e-8edc-4430-a260-d468cdbfca51.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("f7eb5547-1e6d-4ad0-8a5c-d29846dea705"),
+                        Name = "f7eb5547-1e6d-4ad0-8a5c-d29846dea705.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("521e7284-c9d8-4d1e-b270-9c759cd5ffa4"),
+                        Name = "521e7284-c9d8-4d1e-b270-9c759cd5ffa4.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "Modern"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"}
+                }
+            },
             };
         }
     }
