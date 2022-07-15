@@ -850,7 +850,7 @@ namespace TechApp
                     new Color(){ Name = "Black"}
                 }
             },
-                 new Product() {
+                new Product() {
                 Name = "TV Smart 2000",
                 Price = 1799,
                 SalePrice= 1600,
@@ -884,7 +884,7 @@ namespace TechApp
                     new Color(){ Name = "Black"}
                 }
             },
-                 new Product() {
+                new Product() {
                 Name = "Smart TV Extra Premium",
                 Price = 2799,
                 SalePrice= 3600,
