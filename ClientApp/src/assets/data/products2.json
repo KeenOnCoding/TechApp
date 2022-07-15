@@ -1,37 +1,4 @@
 {
-
-  {
-    "id": 26,
-    "name": "ONTEC TV Smart",
-    "price": 399,
-    "salePrice": 299,
-    "discount": 50,
-    "pictures": [
-      {
-        "small": "assets/images/product/small/tv4/tv1.png",
-        "big": "assets/images/product/small/tv4/tv1.png"
-      },
-      {
-        "small": "assets/images/product/small/tv4/tv2.png",
-        "big": "assets/images/product/small/tv4/tv2.png"
-      },
-      {
-        "small": "assets/images/product/small/tv4/tv3.png",
-        "big": "assets/images/product/small/tv4/tv3.png"
-      },
-      {
-        "small": "assets/images/product/small/tv4/tv4.png",
-        "big": "assets/images/product/small/tv4/tv4.png"
-      }
-    ],
-    "shortDetails": "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "stock": 5,
-    "brand": "Brand-5",
-    "newPro": true,
-    "sale": true,
-    "category": "Tv & Audio"
-  },
   {
     "id": 27,
     "name": "Smart Watch",

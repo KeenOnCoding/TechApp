@@ -918,6 +918,40 @@ namespace TechApp
                     new Color(){ Name = "Black"}
                 }
             },
+                new Product() {
+                Name = "ONTEC TV Smart",
+                Price = 3799,
+                SalePrice= 3600,
+                Discount = 420,
+                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                Stock = 10,
+                Brand = "Brand-5",
+                Category = "Tv & Audio",
+                NewPro =  true,
+                Sale =  true,
+                Pictures = new Picture[]{
+                    new Picture() {
+                        Id = new Guid("94255b02-f597-497f-a6d7-c401af9de991"),
+                        Name = "94255b02-f597-497f-a6d7-c401af9de991.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("ef0092fd-d486-46c9-808d-0e9ab41ad79d"),
+                        Name = "ef0092fd-d486-46c9-808d-0e9ab41ad79d.png"
+                    },
+                    new Picture() {
+                        Id = new Guid("7413ae86-3230-4421-a6a2-3616a3422afc"),
+                        Name = "7413ae86-3230-4421-a6a2-3616a3422afc.png"
+                    },
+
+                },
+                Tags = new Tag[] {
+                    new Tag(){ Name = "Modern"}
+                },
+                Colors = new Color[]{
+                    new Color(){ Name = "Black"}
+                }
+            },
             };
         }
     }
