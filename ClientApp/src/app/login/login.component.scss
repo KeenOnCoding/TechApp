@@ -1,0 +1,59 @@
+ //You can add global styles to this file, and also import other style files 
+//@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+//@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+.example-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.example-container > * {
+  width: 100%;
+}
+* {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.mat-tab-header {
+  border-bottom: 0px !important;
+}
+
+.mat-tab-label .mat-tab-label-content {
+  font-size: 40px;
+}
+
+.align-center {
+  background: #fff;
+  position: absolute;
+  width:auto;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.mat-tab-body-content {
+  overflow: hidden !important;
+}
+
+.mat-tab-labels {
+  justify-content: center;  
+}
+
+.mat-raised-button {
+  padding: 5px !important;
+  font-size: 22px;
+}
+
+@media(max-width:700px) {
+  .align-center {
+    width: 60%;
+  }
+}
+
+@media(max-width:575px) {
+  .align-center {
+    width: 80%;
+  }
+}

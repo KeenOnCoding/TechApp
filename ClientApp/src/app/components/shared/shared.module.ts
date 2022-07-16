@@ -21,7 +21,7 @@ import {MatListModule} from '@angular/material/list';
 import {MatSliderModule} from '@angular/material/slider';
 import {MatInputModule} from '@angular/material/input';
 import {MatDialogModule} from '@angular/material/dialog';
-import { MatTableModule } from '@angular/material';
+import { MatCheckboxModule, MatFormFieldModule, MatTableModule } from '@angular/material';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
@@ -42,6 +42,7 @@ import { CategoriesSectionComponent } from './categories-section/categories-sect
 import { FooterTwoComponent } from './footer-two/footer-two.component';
 
 import { MatAutocompleteModule, } from '@angular/material/autocomplete'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -64,6 +65,10 @@ import { MatAutocompleteModule, } from '@angular/material/autocomplete'
     FooterTwoComponent
   ],
   imports: [
+    MatTabsModule,
+    MatFormFieldModule,
+    MatCheckboxModule,
+    MatInputModule,
     CommonModule,
     RouterModule,
     MatButtonModule,
@@ -77,7 +82,6 @@ import { MatAutocompleteModule, } from '@angular/material/autocomplete'
     MatRadioModule,
     MatDialogModule,
     MatChipsModule,
-    MatInputModule,
     MatIconModule,
     MatSidenavModule,
     MatSelectModule,
@@ -90,6 +94,8 @@ import { MatAutocompleteModule, } from '@angular/material/autocomplete'
     MatAutocompleteModule
   ],
   exports: [
+    MatFormFieldModule,
+    MatCheckboxModule,
     CommonModule,
     MatButtonModule,
     MatSnackBarModule,

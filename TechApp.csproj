@@ -34,6 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\app\login\login.component.ts" />
     <None Remove="ClientApp\src\app\modals\order.model.ts" />
   </ItemGroup>
 
@@ -42,6 +43,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\app\login\login.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\modals\order.model.ts" />
   </ItemGroup>
 
