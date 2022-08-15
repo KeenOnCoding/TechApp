@@ -477,40 +477,6 @@ namespace TechApp
                 }
             },
                 new Product() {
-                Name = "Smartphone Tablet Spring2000",
-                Price = 400,
-                SalePrice= 390,
-                Discount = 50,
-                ShortDetails = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
-                Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-                Stock = 20,
-                Brand = "Samsung",
-                Category = "Smartphones",
-                NewPro =  true,
-                Sale =  true,
-                Pictures = new Picture[]{
-                    new Picture() {
-                        Id = new Guid("9d2631e6-4871-49b5-b6d9-a891de74fec7"),
-                        Name = "9d2631e6-4871-49b5-b6d9-a891de74fec7.png"
-                    },
-                    new Picture() {
-                        Id = new Guid("00e828bb-e229-4461-be32-c859a145cab82"),
-                        Name = "00e828bb-e229-4461-be32-c859a145cab82.png"
-                    },
-                    new Picture() {
-                        Id = new Guid("09f1562c-3182-4d7c-ba3e-fb07b69c2960"),
-                        Name = "09f1562c-3182-4d7c-ba3e-fb07b69c2960.png"
-                    },
-
-                },
-                Tags = new Tag[] {
-                    new Tag(){ Name = "Modern"}
-                },
-                Colors = new Color[]{
-                    new Color(){ Name = "Black"}
-                }
-            },
-                new Product() {
                 Name = "Extra Thin Elitte",
                 Price = 400,
                 SalePrice= 390,
