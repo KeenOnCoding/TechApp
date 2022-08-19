@@ -14,7 +14,7 @@ export class OidcHelperService {
 
     private get baseUrl() { return this.configurations.baseUrl; }
     private clientId = 'TechApp';
-    private scope = 'openid email phone profile offline_access roles TechApp';
+  private scope = 'TechAppAPI openid email';
 
     constructor(
         private http: HttpClient,

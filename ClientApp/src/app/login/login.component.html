@@ -3,25 +3,25 @@
     <mat-tab label="Login">
       <div class="example-container">
         <mat-form-field>
-          <input matInput placeholder="Username">
+          <input matInput placeholder="Username" [(ngModel)]="userLogin.userName" #username="ngModel" required>
         </mat-form-field>
 
         <mat-form-field>
-          <input matInput placeholder="Enter your Password">
+          <input matInput placeholder="Enter your Password" [(ngModel)]="userLogin.password" #password="ngModel" required>
           <button mat-icon-button matSuffix>
           </button>
         </mat-form-field>
-        <button mat-raised-button color="primary">Login</button>
+        <button mat-raised-button color="primary" (click)="login()">Login</button>
       </div>
     </mat-tab>
     <mat-tab label="Register">
       <div class="example-container">
         <mat-form-field>
-          <input matInput placeholder="Username">
+          <input matInput  placeholder="Username">
         </mat-form-field>
 
         <mat-form-field>
-          <input matInput placeholder="Enter your password">
+          <input matInput placeholder="Enter your password" >
           <button mat-icon-button matSuffix>
           </button>
         </mat-form-field>
